@@ -12,7 +12,7 @@
 #define SCALE (0.001 * 0.5 * SND_VEL)
 
 #define _EMA_ALPHA 0.5  // EMA weight
-#define N 30            // Median filter window size (3, 10, 30 등 실험)
+#define N 10            // Median filter window size (3, 10, 30 등 실험)
 
 // global variables
 unsigned long last_sampling_time;
